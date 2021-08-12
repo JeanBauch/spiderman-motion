@@ -69,6 +69,14 @@ header{
   }
 }
 
+.labelMenu{
+  display: none;
+
+  @include responsive(){
+    display: block;
+  }
+}
+
 .bx{
   display: none;
   

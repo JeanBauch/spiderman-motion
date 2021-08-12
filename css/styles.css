@@ -361,6 +361,16 @@ header {
   height: 40px;
 }
 
+.labelMenu {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .labelMenu {
+    display: block;
+  }
+}
+
 .bx {
   display: none;
   width: 48px;
